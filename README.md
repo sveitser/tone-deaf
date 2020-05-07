@@ -1,5 +1,6 @@
 ### Make it
 ```
+python generate_snippets.py
 python generate_page.py > index.html
 ```
 
