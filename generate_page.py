@@ -25,7 +25,7 @@ with tag("script", language="JavaScript"):
     """
     )
 
-with tag("table", style="width: 100%; height: 100%;", cellpadding=20):
+with tag("table", cellpadding=10):
     for first_tone in range(1, 5):
         with tag("tr"):
             for second_tone in range(1, 6):
@@ -40,8 +40,8 @@ with tag("table", style="width: 100%; height: 100%;", cellpadding=20):
                             f"background-image: linear-gradient(to right, {COLORS[first_tone]} 47%, #ffffff 48%, #ffffff 52%, {COLORS[second_tone]} 53%);"
                             "border-radius: 5px;"
                             "border: none;"
-                            "min-width: 100%;"
-                            "min-height: 100%;"
+                            "min-width: 150px;"
+                            "min-height: 80px;"
                         ),
                     )
 
